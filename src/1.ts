@@ -15,5 +15,7 @@ class Student {
     this.grade = grade;
   }
 }
+const student = new Student('Olha', 18, 'A');
+console.log(student.name);
 
 export {};
